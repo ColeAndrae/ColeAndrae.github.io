@@ -1,6 +1,5 @@
 import Navbar from "./Navbar";
 import home from "/home-background.png";
-import { Link } from "react-router";
 
 function Home() {
   return (
