@@ -11,7 +11,7 @@ function Projects() {
       style={{ backgroundImage: `url('${projects}')` }}
       className="w-screen h-screen flex-col justify-items-center bg-no-repeat bg-center bg-cover"
     >
-      <h1 className="w-100 mx-auto text-white text-7xl text-center font-bold pt-12">
+      <h1 className="w-100 mx-auto text-white sm:text-7xl text-6xl text-center font-bold pt-12">
         PROJECTS
       </h1>
       <ProjectCard
