@@ -9,7 +9,7 @@ function SocialButton(props: SocialButtonProps) {
   return (
     <a
       style={{ backgroundImage: `url('${image}')` }}
-      className="w-10 h-10 rounded-lg border-1 my-5 transition-transform duration-200 hover:-translate-y-1 bg-no-repeat bg-center bg-cover"
+      className="sm:w-10 sm:h-10  w-6 h-6 rounded-lg border-1 my-5 transition-transform duration-200 hover:-translate-y-1 bg-no-repeat bg-center bg-cover"
       href={url}
     ></a>
   );

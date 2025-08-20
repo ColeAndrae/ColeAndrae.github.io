@@ -8,7 +8,7 @@ function About() {
       style={{ backgroundImage: `url('${about}')` }}
       className="w-screen h-screen bg-no-repeat bg-center bg-cover flex-col justify-items-center"
     >
-      <h1 className="w-100 mx-auto text-white text-7xl text-center font-bold pt-12">
+      <h1 className="w-100 mx-auto text-white sm:text-7xl text-6xl text-center font-bold pt-12">
         ABOUT ME
       </h1>
       <ProfileCard></ProfileCard>

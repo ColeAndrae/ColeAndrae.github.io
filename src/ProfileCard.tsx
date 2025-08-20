@@ -6,7 +6,7 @@ import cole from "/cole.jpg";
 
 function ProfileCard() {
   return (
-    <div className="w-100 h-105 bg-white my-12 rounded-lg mx-auto shadow-2xl flex-col justify-baseline p-5">
+    <div className="sm:w-100 w-80 sm:h-105 h-115 bg-white my-12 rounded-lg mx-auto shadow-2xl flex-col justify-baseline p-5">
       <div className="flex justify-around items-end">
         <div
           style={{ backgroundImage: `url('${cole}')` }}
@@ -26,7 +26,7 @@ function ProfileCard() {
         ></SocialButton>
       </div>
       <hr className="my-4"></hr>
-      <h1 className="w-90 h-50 items-center font-sans">
+      <h1 className="sm:w-90 w-70 h-50 items-center font-sans">
         I am a UBC undergraduate student passionate about the intersection of
         machine learning and bioinformatics. As a dedicated student-athlete, I
         thrive on challenges and am eager to connect with others to explore new
