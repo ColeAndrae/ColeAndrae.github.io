@@ -1,5 +1,4 @@
 import ProjectCard from "./ProjectCard";
-import projects from "/projects-background.png";
 import protien from "/protien.png";
 import chess from "/chess-board.png";
 import xray from "/x-ray.png";
@@ -7,10 +6,7 @@ import Navbar from "./Navbar";
 
 function Projects() {
   return (
-    <div
-      style={{ backgroundImage: `url('${projects}')` }}
-      className="w-screen h-screen flex-col justify-items-center bg-no-repeat bg-center bg-cover"
-    >
+    <div className="w-screen h-screen flex-col justify-center justify-items-center bg-zinc-900">
       <h1 className="w-100 mx-auto text-white sm:text-7xl text-6xl text-center font-bold pt-12">
         PROJECTS
       </h1>
